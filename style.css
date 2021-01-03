@@ -1,4 +1,8 @@
-.mid{
+div.mid{
 	background-color: grey;
-	align-self: center;
+	text-align: center;
+	
+}
+html{
+	background-color: black;
 }
