@@ -1,0 +1,71 @@
+.navigation{
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+	white-space: nowrap;
+	display: inline-block;
+}
+
+div.grid{
+	display: grid;
+  	grid-template-columns: auto auto auto;
+  	grid-gap: 50px;
+  	padding: 5px;
+  	background-color: ;
+}
+div.grid > div {
+	background-color:;
+  	text-align: center;
+  	padding: 5px 0;
+  	background-color: ;
+  	font-size: 30px;
+  	outline-style: solid;
+	outline-color: white;
+	outline-width: 5px;
+	margin: ;
+}
+
+div.mid0{
+	grid-column-start: 1;
+	grid-column-end: 4;
+	text-align:  ;
+	background-color: black;
+}
+
+div.mid1{
+	background-color: ;
+	
+}
+div.mid2{
+	outline-style: solid;
+	outline-color: white;
+	outline-width: 5px;
+	margin: 0 auto;
+	background-color:black ;
+	text-align: center;
+	width: 36%;
+	
+}
+div.text{
+	margin: 0 auto;
+	background-color:black;
+	outline-style: solid;
+	outline-color: white;
+	outline-width: 5px;
+	text-align: center;
+	width: 60%;
+	left: 100px;
+	
+}
+html{
+
+	color: white;
+	font-family: Courier New ;
+	font-size: 25px;
+
+}
+body{
+	
+
+ 
+}

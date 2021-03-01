@@ -1,0 +1,166 @@
+body{
+	background-color: #393e46;
+	margin: 0px 0px 0px 0px;
+	overflow-y:scroll;
+}
+#title{
+	background-color:#222831 ;
+	text-align: center;
+	height: auto;
+	color: #ffd369;
+	
+
+}
+#navbar{
+	color: #ffd369;
+	background-color:#222831;
+	margin: 0px auto 0 auto;
+	padding: 10px 0 10px 0;
+	width: 100%;
+	height: auto;
+	position: sticky;
+	top: 0px;
+	z-index: 1;
+
+}
+.navlink{
+	text-decoration: none;
+	padding: 15px 15px 15px 15px;
+	color:#ffd369;
+	font-family: PT sans;
+}
+h1{
+	margin: 0 auto  0 auto;
+	padding: 0 0 0 0;
+	font-size: 60px;
+	font-family: PT sans;
+	color:#ffd369;
+	width: 25%;
+}
+h2{
+	margin: 0 auto  0 auto;
+	padding: 0 0 0 0;
+	font-family: PT sans;
+	color:#ffd369;
+	text-align: center;
+}
+ul{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	text-align: center;
+}
+ul > li{
+	display: inline-block;
+}
+li{
+	margin: 0 10px 0 10px;
+	font-size: 20px;
+}
+hr {
+	width: 90%;
+}
+a{
+	text-decoration: none;
+}
+#about-area{
+	outline-style: solid;
+	outline-color: #ffd369;
+	outline-width: 1px;
+	background-color: #222831;
+
+	width: 40%;
+	height: auto;
+	margin: 26px auto 0 auto;
+}
+.about-para{
+	font-family: PT sans;
+	margin: 25px 25px 0px 25px;
+	padding: 0 0 25px 0;
+	text-align: center;
+	color:#eeeeee;
+}
+
+#silver {
+	outline-style: solid;
+	outline-color: #ffd369;
+	outline-width: 1px;
+	/*^^^^these guys are just so i keep my sanity*/
+	background-color: #;
+	width: 40%;
+	height: auto;
+	margin: auto;
+	margin-top: 26px;
+	margin-bottom: 2%;
+	padding:;
+	position: relative;
+	
+}
+
+#sidebar{
+	outline-style: solid;
+	outline-color: #ffd369;
+	outline-width: 1px;
+
+	width: 20%;
+	height: 100%;
+	background-color: #222831;
+	margin-left: 0 0 0 0;
+	padding: 0 0 0 0; 
+	text-align: center;
+	position: absolute;
+	color:#ffd369;
+	z-index: 4;
+}
+#sidebar-header{
+	margin: 10px 0 0 0;
+}
+.content{
+	background-color: #222831;
+  	padding: 0 0 0 0;
+  	width: 80% ;
+	margin: 0 0 0 20%;
+	position: relative;
+	display:inline-block;
+}
+.content-header{
+	margin: 0 auto  0 auto ;
+	margin-left: 50px;
+	padding: 0 0 0 0;
+	font-size: 40px;
+	font-family: PT sans;
+	color:#ffd369;
+	width: 75%;
+	text-align: left;
+}
+.content-para{
+	font-family: PT sans;
+	margin: 25px 50px 50px 50px;
+	color:#eeeeee;
+}
+#gallery-grid-container{
+	margin: 26px auto 26px auto;
+	padding: 30px 30px 30px 30px;
+	background-color:#ffd369;
+	width: 60%;
+	height: auto;
+	display: grid;
+	grid-template-columns: 3fr 3fr 3fr;
+	grid-column-gap: 30px;
+	grid-row-gap: 30px;
+}
+.center-grid{
+	
+	outline-style: solid;
+	outline-color: black;
+	outline-width: 5px;
+	/*
+	margin: auto auto;
+	padding: auto auto;
+	*/
+}
+.images{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
