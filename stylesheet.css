@@ -145,7 +145,7 @@ a{
 	height: auto;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows:repeat(4, 500px);
+	grid-template-rows:repeat(4, 20vw);
 	grid-column-gap: 30px;
 	grid-row-gap: 30px;
 }
