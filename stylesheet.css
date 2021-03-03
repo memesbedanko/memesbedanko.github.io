@@ -8,6 +8,7 @@ body{
 	text-align: center;
 	height: auto;
 	color: #ffd369;
+
 	
 
 }
@@ -21,6 +22,7 @@ body{
 	position: sticky;
 	top: 0px;
 	z-index: 1;
+	
 
 }
 .navlink{
@@ -134,7 +136,7 @@ a{
 }
 .content-para{
 	font-family: PT sans;
-	margin: 25px 50px 50px 50px;
+	margin: 25px 50px 25px 50px;
 	color:#eeeeee;
 }
 #gallery-grid-container{
@@ -168,5 +170,25 @@ a{
 .crop1{
 	object-fit: cover;
 	object-position: 50% 5%;
-	
+}
+#page-container{
+	position: relative;
+	min-height: 100vh;
+}
+#content-wrap{
+	padding-bottom: 3.5rem;
+}
+#footer{
+  	
+  	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	height: 3.5rem;
+  	background-color: #222831;
+  	color: #eeeeee;
+  	text-align: center;	
+  	/*
+  	background-image:linear-gradient(#393e46,#222831);
+  	*/
+  	
 }
