@@ -1,0 +1,79 @@
+html{
+  background-color: black;
+  background-image: url('assets/SceneNegative.png');
+  background-repeat: repeat;
+  background-size: 15%;
+  font-family: sans-serif;;
+}
+body{
+  margin: 0 0 0 0;
+}
+hr{
+  margin:0 0 0 0;
+  border-style: solid;
+  color: blue;
+
+}
+div#header{
+  background-color: #333333;
+  color: ghostwhite;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+#header-title{
+  padding: 0.5% 0 0.5% 0;
+  font-size: 2.5em;
+  margin: 0 0 0 0;
+}
+#content-grid{
+  width: 70%;
+  height: auto;
+  background-color: ghostwhite;
+  text-align: center;
+  margin: 1cm auto 1cm auto;
+  padding: 1px 1px 1px 1px;
+
+  display:grid;
+  grid-gap:1px;
+  grid-template-areas:
+  'list post post post post gallery gallery'
+  'list post post post post gallery gallery'
+  'list post post post post recording recording'
+  'list post post post post recording recording';
+
+}
+.grid-items{
+  background-color: #333333;
+ padding: 5px;
+ font-size: 30px;
+ text-align: center;
+}
+#list-grid{
+  grid-area: list;
+}
+#list-header{
+  margin: 0 0 0 0;
+  padding: auto;
+  font-size: 20px;
+}
+#post-grid{
+  grid-area: post;
+
+}
+#gallery-grid{
+  grid-area: gallery;
+
+}
+#recording-grid{
+  grid-area: recording;
+
+}
+.mainb{
+  padding: 1% 1% 1% 1%;
+  background-color: skyblue;
+  border: none;
+  border-radius: 4px;
+}
+.mainb:hover{
+  background-color: dimgray;
+}
