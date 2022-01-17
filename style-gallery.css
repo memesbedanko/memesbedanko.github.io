@@ -61,16 +61,21 @@ a{
   text-align: center;
   width: fit-content;
 }
+#gallery-about{
+  font-style: oblique;
 
+  font-size:min(1rem,2vw);
+  color: #c7dbff;
+}
 .gallery-container{
   background-color: transparent;
   max-width: 1250px;
-  width: calc(100% - 50px);
+  width: calc(100% - 100px);
   margin: auto;
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(4, 25rem);
+  grid-auto-rows: 25rem;
   text-align: center;
   grid-gap: 10px;
 
@@ -82,7 +87,7 @@ a{
 @media(max-width:1000px){
   .gallery-container{
     grid-template-columns:1fr 1fr;
-    width: calc(100% - 50px);
+    width: calc(100% - 100px);
     grid-gap: 5px;
 
   }
