@@ -1,4 +1,4 @@
-const newList = [
+const galleryList = [
   {
     'name':'ThisIsntAboutYou.png',
     'tag':'sfw'
@@ -101,36 +101,20 @@ const newList = [
     'tag': 'sfw'
   }
 ]
-const list = [
-  'CebCock.png',
-  'CursedGrabNewBooba.png',
-  'FuckIfIKnow.png',
-  'FullBodyTrimmed.png',
-  'How i hold my joystick.png',
-  'NewMemeWhoThis.png',
-  'Pasted image 20211118231633.png',
-  'Pasted image 20211118231830.png',
-  'Pasted image 20211118231914.png',
-  'Right My Wrongs.png',
-  'Scene.png',
-  'SpaceCowBoy.png',
-  'ash.png',
-  'baddays.png',
-  'beachnobody.png',
-  'maggie.png',
-  'midrift.png',
-  'no3.jpg',
-  'pepe.png',
-  'pl.jpg',
-  'pole.png',
-  'someboxes.png',
-  'waiting.png',
-  'why.png'
+const myList = [
+  'What if wonders',
+  'Don\'t overdose on happiness',
+  'Depression',
+  'You\'re one to talk',
+  'Someone to talk to',
+  'I am not sure why we have to keep doing this shit',
+  'I dont know enough',
+  "The less I know"
 ]
 
-function createsDivs() {
+async function createsGallery() {
 
-  for(let i = 0;i<list.length;i++){
+  for(let i = 0;i<galleryList.length;i++){
 
     //creates children element -> div
     var galleryImages = document.createElement('div')
@@ -139,8 +123,8 @@ function createsDivs() {
 
     //creates gc element -> img
     var eachImg = document.createElement('img')
-    eachImg.src = `images/${newList[i].name}`;
-    eachImg.className = `each-img ${newList[i].tag}`;
+    eachImg.src = `images/${galleryList[i].name}`;
+    eachImg.className = `each-img ${galleryList[i].tag}`;
 
 
     document.getElementById('hello').appendChild(galleryImages)
@@ -149,7 +133,20 @@ function createsDivs() {
 
 
 }
-createsDivs()
+createsGallery()
+
+async function createsList(){
+  for(let i = 0;i<myList.length;i++){
+    console.log(myList[i])
+    let theList = document.createElement('h3');
+    theList.className = 'my-list';
+    theList.innerHTML = myList[i];
+    document.getElementById('list-container').appendChild(theList);
+  }
+
+}
+createsList()
+
 /*
 function imageAxe() {
   var fs =require('fs');
