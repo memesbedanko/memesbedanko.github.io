@@ -1,5 +1,9 @@
 const newList = [
   {
+    'name':'ThisIsntAboutYou.png',
+    'tag':'sfw'
+  },
+  {
     'name': 'baddays.png',
     'tag': 'sfw'
   },
