@@ -102,6 +102,7 @@ const galleryList = [
   }
 ]
 const myList = [
+  "Imaginary Muse",
   'Ashley\'s safety',
   'What if wonders',
   'Don\'t overdose on happiness',
