@@ -69,5 +69,34 @@ a{
 .my-list{
 color: #c7dbff;
 text-align: center;
-font-size: min(18.72px,2vw)
+font-size: min(18.72px,2vw);
+
 }
+/*
+#list-container{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  max-width: 1250px;
+  margin: auto;
+
+  width: calc(100% - 100px);
+  grid-gap: 10px;
+  max-width: 1250px;
+
+}
+#phrase{
+
+
+}
+#truths{
+  text-align: left !important;
+
+}
+#truths > h3:before{
+  margin: 0 0 0 -10px;
+  content:"- ";
+
+}
+*/

@@ -112,7 +112,9 @@ const myList = [
   'I dont know enough',
   "The less I know"
 ]
+const theTruthList = [
 
+]
 async function createsGallery() {
 
   for(let i = 0;i<galleryList.length;i++){
@@ -138,12 +140,20 @@ createsGallery()
 
 async function createsList(){
   for(let i = 0;i<myList.length;i++){
-    console.log(myList[i])
     let theList = document.createElement('h3');
     theList.className = 'my-list';
     theList.innerHTML = myList[i];
-    document.getElementById('list-container').appendChild(theList);
+    document.getElementById('phrase').appendChild(theList);
+
+
   }
+  for (let i = 0; i < theTruthList.length; i++) {
+    let truthList = document.createElement('h3');
+    truthList.className = 'my-list'
+    truthList.innerHTML = theTruthList[i];
+    document.getElementById('truths').appendChild(truthList)
+  }
+
 
 }
 createsList()
