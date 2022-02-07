@@ -102,6 +102,7 @@ const galleryList = [
   }
 ]
 const myList = [
+  "White Lies",
   "Imaginary Muse",
   'Ashley\'s safety',
   'What if wonders',
