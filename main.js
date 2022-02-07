@@ -102,6 +102,7 @@ const galleryList = [
   }
 ]
 const myList = [
+  "Put an * next to my name",
   "White Lies",
   "Imaginary Muse",
   'Ashley\'s safety',
