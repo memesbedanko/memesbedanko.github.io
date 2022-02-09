@@ -102,6 +102,7 @@ const galleryList = [
   }
 ]
 const myList = [
+  "unreliable narrator",
   "She likes to talk",
   "I'm not sure what I'm looking for",
   "Put an * next to my name",
