@@ -102,6 +102,8 @@ const galleryList = [
   }
 ]
 const myList = [
+  "Melanhap",
+  "Contrived smiles and a bill of goods",
   "Unreliable narrator",
   "She likes to talk",
   "I'm not sure what I'm looking for",
