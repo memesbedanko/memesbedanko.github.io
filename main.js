@@ -102,6 +102,7 @@ const galleryList = [
   }
 ]
 const myList = [
+  "The feeling is mutual",
   "...---...",
   "Melanhap",
   "Contrived smiles and a bill of goods",
