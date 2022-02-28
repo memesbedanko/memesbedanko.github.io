@@ -134,6 +134,13 @@ async function createsGallery() {
     galleryImages.setAttribute('id',`gallery-images${i}`)
     galleryImages.className = 'gallery-images';
 
+    //creates a elements
+    var aTag = document.createElement('a')
+    aTag.setAttribute('id',`aTag${i}`)
+    aTag.setAttribute('href',`images/${galleryList[i].name}`)
+    aTag.setAttribute('target',`_blank`)
+
+
     //creates gc element -> img
     var eachImg = document.createElement('img')
     eachImg.src = `images/${galleryList[i].name}`;
@@ -141,7 +148,8 @@ async function createsGallery() {
 
 
     document.getElementById('hello').appendChild(galleryImages)
-    document.getElementById(`gallery-images${i}`).appendChild(eachImg)
+    document.getElementById(`gallery-images${i}`).appendChild(aTag)
+    document.getElementById(`aTag${i}`).appendChild(eachImg)
   }
 
 

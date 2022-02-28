@@ -23,7 +23,7 @@ a{
 }
 .links{
   margin:auto auto;
-  font-size: min(55px,5vw);
+  font-size: min(50px,5vw);
   line-height: 2.5;
   letter-spacing: .5em;
   color: ghostwhite;

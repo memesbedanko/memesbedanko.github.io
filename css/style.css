@@ -22,7 +22,7 @@ a{
 }
 .links{
   margin:auto auto;
-  font-size: 55px;
+  font-size: min(50px,4vw);
   line-height: 2.5;
   letter-spacing: .5em;
   color: ghostwhite;
