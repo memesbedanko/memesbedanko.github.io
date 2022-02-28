@@ -145,6 +145,9 @@ async function createsGallery() {
 createsGallery()
 
 async function createsList(){
+  fetch('./galleryList.json')
+
+
   for(let i = 0;i<myList.length;i++){
     let theList = document.createElement('h3');
     theList.className = 'my-list';
