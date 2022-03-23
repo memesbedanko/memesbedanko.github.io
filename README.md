@@ -1,4 +1,4 @@
-# [TheAntPond](www.theantpond.com)
+# [TheAntPond](https://www.theantpond.com/)
 ### memesbedanko.github.io
 
 For future 'dev'
