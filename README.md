@@ -1,5 +1,5 @@
-# memesbedanko.github.io
 # [The website](www.theantpond.com)
+# memesbedanko.github.io
 
-For future dev
-At the bottom, add an about, links to social, and any other footer stuff
+For future 'dev'
+At the bottom, add an about, links to social, github, itch, whatever else
