@@ -103,7 +103,7 @@ const galleryList = [
 ]
 const myList = [
   "Apathy be the death of me",
-  "What a Great ass inspiration",
+  "Inspiration",
   "Why Do I Hesitate",
   "The feeling is mutual",
   "...---...",
