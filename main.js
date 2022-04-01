@@ -102,6 +102,7 @@ const galleryList = [
   }
 ]
 const myList = [
+  "Where are you now?",
   "Apathy be the death of me",
   "Inspiration",
   "Why Do I Hesitate",
