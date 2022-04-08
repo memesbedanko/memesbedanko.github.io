@@ -126,9 +126,101 @@ const myList = [
   'I dont know enough',
   "The less I know"
 ]
-const theTruthList = [
-
+const myListArray = [
+    {
+        name:"Where are you now?",
+        caption:"I look at other from my past and wonder this. So many people I want to catch up with but nothing but ghost and misplaced meaning wait there"
+    },
+    {
+        name:"Apathy be the death of me",
+        caption:"Taken from TheActMan about video games, when I self reflect, I feel that phrase can be used to describe me. A lot of my life I have been apathetic to how I approach things. Has it landed me in a terrible spot? No. Will it evenutally? probably."
+    },
+    {
+        name:"Inspiration",
+        caption:"It was then I had inspiration. Misguided and nonsensical, something about 'it' just made me want it. I can work towards it. I can achieve it. All for nothing by the way."
+    },
+    {
+				name:"Why Do I Hesitate",
+				caption:"tk"
+		},
+    {
+				name:"The feeling is mutual",
+				caption:"tk"
+		},
+    {
+				name:"...---...",
+				caption:"tk"
+		},
+    {
+				name:"Melanhap",
+				caption:"tk"
+		},
+    {
+				name:"Contrived smiles and a bill of goods",
+				caption:"tk"
+		},
+    {
+				name:"Unreliable narrator",
+				caption:"tk"
+		},
+    {
+				name:"She likes to talk",
+				caption:"tk"
+		},
+    {
+				name:"I'm not sure what I'm looking for",
+				caption:"tk"
+		},
+    {
+				name:"Put an * next to my name",
+				caption:"tk"
+		},
+    {
+				name:"White Lies",
+				caption:"tk"
+		},
+    {
+				name:"Imaginary Muse",
+				caption:"tk"
+		},
+    {
+				name:'Ashley\'s safety',
+				caption:"tk"
+		},
+    {
+				name:'What if wonders',
+				caption:"tk"
+		},
+    {
+				name:'Don\'t overdose on happiness',
+				caption:"tk"
+		},
+    {
+				name:'Depression',
+				caption:"tk"
+		},
+    {
+				name:'You\'re one to talk',
+				caption:"tk"
+		},
+    {
+				name:'Someone to talk to',
+				caption:"tk"
+		},
+    {
+				name:'I am not sure why we have to keep doing this shit',
+				caption:"tk"
+		},
+    {
+				name:'I dont know enough',
+				caption:"tk"
+		},
+    {
+				name:"The less I know",
+				caption:"tk"
+		}
 ]
+
 async function createsGallery() {
 
   for(let i = 0;i<galleryList.length;i++){
@@ -161,37 +253,54 @@ async function createsGallery() {
 createsGallery()
 
 async function createsList(){
-  fetch('./galleryList.json')
-
-
-  for(let i = 0;i<myList.length;i++){
-    let theList = document.createElement('h3');
-    theList.className = 'my-list';
-    theList.innerHTML = myList[i];
-    document.getElementById('phrase').appendChild(theList);
-
-
+  // Changes the display to none, closing the modal by clicking X
+  var span = document.getElementsByClassName("close")[0];
+  span.onclick = function() {
+    myModal.style.display = "none";
   }
+  // Same thing, but with the outside of the modal content
+  window.onclick = function(event) {
+    if (event.target == myModal) {
+      myModal.style.display = "none";
+    }
+  }
+// loop goes through all phrases
+    for (var i = 0; i < myListArray.length; i++) {
+        // Section generates the phrases on the page
+        let theList = document.createElement('h3')
+        theList.className= "my-list hover-effect"
+        theList.innerHTML= myListArray[i].name
+        theList.setAttribute('id',myListArray[i].name)
+        // removes hover effect by removing the class from the element
+        if (myListArray[i].caption == "tk"){
+          theList.classList.remove('hover-effect')
+        }
+        // onClick event which 1.gets the caption 2.allows the modal to be shown hidden
+        theList.onclick = function() {
+          let theCaption = () => {
+            for (var i = 0; i < myListArray.length; i++) {
+              if(phrase_id==myListArray[i].name )
+                return myListArray[i].caption
+            }
+          }
+          var phrase_id = this.id
+          if(theCaption() != 'tk'){
+            myModal.style.display = "block"
+          }
+          let htmlCaption = document.getElementById('list-caption')
+          htmlCaption.innerHTML = theCaption()
+        }
+
+        document.getElementById('phrase').appendChild(theList)
+        }
+/*
   for (let i = 0; i < theTruthList.length; i++) {
     let truthList = document.createElement('h3');
     truthList.className = 'my-list'
     truthList.innerHTML = theTruthList[i];
     document.getElementById('truths').appendChild(truthList)
   }
-
+*/
 
 }
 createsList()
-
-/*
-function imageAxe() {
-  var fs =require('fs');
-  var files = fs.readdirSync('images/')
-  console.log(files)
-}
-imageAxe()
-
-function now(){
-  window.confirm("NSFW pieces are included here.")
-}now();
-*/
