@@ -137,7 +137,7 @@ const myListArray = [
     },
     {
         name:"Inspiration",
-        caption:"It was then I had inspiration. Misguided and nonsensical, something about 'it' just made me want it. I can work towards it. I can achieve it. All for nothing by the way."
+        caption:"It was then I had inspiration. Misguided and nonsensical, something about 'it' left me wanting. I can work towards it. I can achieve it. In the grand scheme of things, it is rather silly."
     },
     {
 				name:"Why Do I Hesitate",
