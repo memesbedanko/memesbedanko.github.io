@@ -157,7 +157,7 @@ async function createsGallery() {
 createsGallery()
 
 async function createsList(){
-  fetch('./galleryList.json')
+  
 
 
   for(let i = 0;i<myList.length;i++){
