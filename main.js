@@ -127,9 +127,13 @@ const myList = [
   "The less I know"
 ]
 const myListArray = [
+  {
+      name:"Means to an end",
+      caption:"While the reason might be benign, the intent feels unjust. The intent feels slimey. Disingenuous. In that moment, that tiny reason is the cause. For any moments. All for my own sake. All for my own praise, desires, and needs. If I had a different outlook, a different set of values, a changed world view, maybe these actions could be justified.<br> I dont want to feel this way forever"
+    },
     {
         name:"Where are you now?",
-        caption:"I look at other from my past and wonder this. So many people I want to catch up with but nothing but ghost and misplaced meaning wait there"
+        caption:"I look at others from my past and wonder this. So many people I want to catch up with but nothing but ghost and misplaced meaning wait there"
     },
     {
         name:"Apathy be the death of me",

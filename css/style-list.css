@@ -74,18 +74,23 @@ font-size: min(18.72px,2vw);
 width: max-content;
 margin: 18.75px auto;
 }
+/* temp solution */
+.hover-effect::after{
+content:" *";
+}
+
 .hover-effect:hover,
 .hover-effect:focus{
-  color: ghostwhite;
+  color: black;
   text-decoration: none;
   cursor: pointer;
 }
 .modal-content {
-  background-color: #fefefe;
+  background-color:  #BbBdBd ;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width: 75vw; /* Could be more or less, depending on screen size */
+  width: 50vw; /* Could be more or less, depending on screen size */
   text-align: center;
 }
 .close{
