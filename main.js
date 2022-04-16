@@ -129,7 +129,7 @@ const myList = [
 const myListArray = [
   {
     name:"The Attention",
-    caption:"Back then, I was living life like a ghost, thought not the host I’m about to tell you about. I was all numb & stupid and Dazed too I guess, a pretty spooky silentiary for matters I knew by heart but could never quite translate for anyone I knew let alone myself. I constantly, craved the comforts of feminine attention, even though the thought of actually getting a girlfriend, one who was into me and wanted to be with me, seemed about as real as any dozen of the myth’s I’d been reading about in class"
+    caption:"Back then, I was living life like a ghost, thought not the host I’m about to tell you about. I was all numb and stupid and dazed too I guess, a pretty spooky silentiary for matters I knew by heart but could never quite translate for anyone I knew let alone myself. I constantly, craved the comforts of feminine attention, even though the thought of actually getting a girlfriend, one who was into me and wanted to be with me, seemed about as real as any dozen of the myth’s I’d been reading about in class"
   },
   {
     name:"Ghost",
