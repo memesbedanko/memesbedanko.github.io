@@ -128,6 +128,14 @@ const myList = [
 ]
 const myListArray = [
   {
+    name:"The Attention",
+    caption:"Back then, I was living life like a ghost, thought not the host I’m about to tell you about. I was all numb & stupid and Dazed too I guess, a pretty spooky silentiary for matters I knew by heart but could never quite translate for anyone I knew let alone myself. I constantly, craved the comforts of feminine attention, even though the thought of actually getting a girlfriend, one who was into me and wanted to be with me, seemed about as real as any dozen of the myth’s I’d been reading about in class"
+  },
+  {
+    name:"Ghost",
+    caption:"I see them all to often. Those who were tried and failed, those who were cared for and ignored, efforts put in and thanks spit out. I get irrational around them and I feel as if they act irrationally around me. While I am stuck in this plane, they wonder theirs without a second thought. Perhaps that is the hint; Continue without giving them a thought."
+  },
+  {
       name:"Means to an end",
       caption:"While the reason might be benign, the intent feels unjust. The intent feels slimey. Disingenuous. In that moment, that tiny reason is the cause. For any moments. All for my own sake. All for my own praise, desires, and needs. If I had a different outlook, a different set of values, a changed world view, maybe these actions could be justified.<br> I dont want to feel this way forever"
     },
