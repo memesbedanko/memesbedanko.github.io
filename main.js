@@ -177,7 +177,7 @@ const myListArray = [
 		},
     {
 				name:"She likes to talk",
-				caption:"tk"
+				caption:"Funnily enough, she could talk that talk, but couldn't walk that walk. People <strike>rarely</strike> neglect to ask about others"
 		},
     {
 				name:"I'm not sure what I'm looking for",
