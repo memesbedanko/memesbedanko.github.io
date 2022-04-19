@@ -217,7 +217,7 @@ const myListArray = [
 		},
     {
 				name:'Someone to talk to',
-				caption:"We all look for that person. Often some are lucky enough to find that person. They stay, they care, they listen. Other times they are present, yet invisible, noticed but silent. Indeed it is a <strike>thankless job/</strike>"
+				caption:"We all look for that person. Often some are lucky enough to find that person. They stay, they care, they listen. Other times they are present, yet invisible, noticed but silent. Indeed it is a <strike>thankless job.</strike>"
 		},
     {
 				name:'I am not sure why we have to keep doing this shit',
