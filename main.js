@@ -1,5 +1,21 @@
 const galleryList = [
   {
+    'name':'angst',
+    'tag':'sfw'
+  },
+  {
+    'name':'Classic Cutie',
+    'tag':'sfw'
+  },
+  {
+    'name':'SomePractice.png',
+    'tag':'sfw'
+  },
+  {
+    'name':'MoreMytake.png',
+    'tag':'sfw'
+  },
+  {
     'name':'ThisIsntAboutYou.png',
     'tag':'sfw'
   },
