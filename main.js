@@ -1,10 +1,10 @@
 const galleryList = [
   {
-    'name':'angst',
+    'name':'angst.png',
     'tag':'sfw'
   },
   {
-    'name':'Classic Cutie',
+    'name':'Classic Cutie.png',
     'tag':'sfw'
   },
   {
@@ -12,7 +12,7 @@ const galleryList = [
     'tag':'sfw'
   },
   {
-    'name':'MoreMytake.png',
+    'name':'MoreMyTake.png',
     'tag':'sfw'
   },
   {
