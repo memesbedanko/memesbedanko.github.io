@@ -20,16 +20,8 @@ const galleryList = [
     'tag': 'nsfw'
   },
   {
-    'name': 'FullBodyTrimmed.png',
-    'tag': 'sfw'
-  },
-  {
     'name': 'How i hold my joystick.png',
     'tag': 'nsfw'
-  },
-  {
-    'name': 'NewMemeWhoThis.png',
-    'tag': 'sfw'
   },
   {
     'name': 'Pasted image 20211118231633.png',
@@ -83,10 +75,6 @@ const galleryList = [
   {
     'name': 'pl.jpg',
     'tag': 'sfw'
-  },
-  {
-    'name': 'pole.png',
-    'tag': 'nsfw'
   },
   {
     'name': 'someboxes.png',
