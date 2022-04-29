@@ -73,6 +73,7 @@ text-align: center;
 font-size: min(18.72px,2vw);
 width: max-content;
 margin: 18.75px auto;
+
 }
 /* temp solution */
 .hover-effect::after{
@@ -94,7 +95,6 @@ content:" *";
   text-align: center;
 }
 .close{
-
   font-size: 28px;
   font-weight: bold;
 }
@@ -115,8 +115,10 @@ content:" *";
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  
 
 }
+
 /*
 #list-container{
 

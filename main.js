@@ -241,6 +241,7 @@ const myListArray = [
 		}
 ]
 
+
 async function createsGallery() {
 
   for(let i = 0;i<galleryList.length;i++){
@@ -267,8 +268,7 @@ async function createsGallery() {
     document.getElementById(`gallery-images${i}`).appendChild(aTag)
     document.getElementById(`aTag${i}`).appendChild(eachImg)
   }
-
-
+  
 }
 createsGallery()
 

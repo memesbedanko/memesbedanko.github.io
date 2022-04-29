@@ -27,14 +27,9 @@ a{
   letter-spacing: .5em;
   color: ghostwhite;
   width: fit-content;
-
+  
 }
 
-.flip:after{
-  display: inline-block;
-  transform: rotateY(180deg);
-  content: 'The Ant pond';
-}
 
  .links:after{
   display: inline-block;
@@ -59,3 +54,4 @@ a{
   text-align: center;
   width: fit-content;
 }
+
