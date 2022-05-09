@@ -1,5 +1,9 @@
 const myListArray = [
     {
+        name:'A lack of unwelcome faces',
+        caption:"Is not you, but it is not necessarily me either"
+    },
+    {
         name:'Opposing Forces',
         caption:"tk"
     },
