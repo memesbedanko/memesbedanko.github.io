@@ -1,5 +1,9 @@
 const myListArray = [
     {
+        name:'Resolution of a higher opinion',
+        caption:"Its more than just you, but the strength behind what becomes of you. Not to triffle on toes, or hold a shadow over you, but to get the truth out with just a little push.<br> I apperciate all the words, every last one. Thank you all for your well fought fights and putting up with my prodding "
+    },
+    {
         name:'A lack of unwelcome faces',
         caption:"Is not you, but it is not necessarily me either"
     },
