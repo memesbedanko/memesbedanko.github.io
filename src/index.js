@@ -2,12 +2,23 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import reportWebVitals from './reportWebVitals';
+import Gallery from './pages/Gallery'
+import List from './pages/List'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter basename='/'>
+      <Routes>
+        <Route path='/' element={<App/>}/>
+        <Route path='/gallery' element={<Gallery/>}/>
+        <Route path='/list' element={<List/>}/>
+
+      </Routes>
+    </BrowserRouter>
+    
   </React.StrictMode>
 );
 
