@@ -2,7 +2,9 @@ import React from 'react'
 
 const List = () => {
   return (
-    <div>List</div>
+    <div>List Test CNAME NOW IN PUBLIC
+      <p> I just gotta see if its  real</p>
+    </div>
   )
 }
 

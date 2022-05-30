@@ -62,7 +62,7 @@ html{
 }
 .gallery-container{
   background-color: transparent;
-  
+  max-width: 1250px;
   width: max(75%, 500px);
   margin: auto;
 
