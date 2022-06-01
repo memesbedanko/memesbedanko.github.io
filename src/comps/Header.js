@@ -9,4 +9,4 @@ const header = ({ heading, testValue, }) => {
   )
 }
 
-export default header
+export default header 
