@@ -15,7 +15,9 @@ const List = () => {
         <ListPhrase phrase="Yes" message="" />
         <ListPhrase phrase="No" message="" />
         <ListPhrase phrase="Maybe" message="" />
-        <ListPhrase phrase="Can" message="" />
+        <ListPhrase phrase="I" message="" />
+        <ListPhrase phrase="Don't" message="" />
+
 
 
       </div>
