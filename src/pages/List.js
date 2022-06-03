@@ -18,6 +18,8 @@ const List = () => {
         <ListPhrase phrase="I" message="" />
         <ListPhrase phrase="Don't" message="" />
         <ListPhrase phrase="Know" message="" />
+        <ListPhrase phrase="Can" message="" />
+
 
 
 
