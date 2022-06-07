@@ -7,9 +7,9 @@ const GalleryImage = ({name,tag}) => {
     <>
         <div className={`${GalleryStyle['gallery-images']}`}>
         <a href={require(`../images/${name}`)} target="_blank" rel="noreferrer">
-            <img className={`${GalleryStyle['each-img']} ${GalleryStyle[tag]}`} src={require(`../images/${name}`)} alt=""/>
+            <img loading="lazy" className={`${GalleryStyle['each-img']} ${GalleryStyle[tag]}`} src={require(`../images/${name}`)} alt=""/>
             
-            </a>
+            </a>l
         </div>
     </>
   )

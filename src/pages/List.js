@@ -3,6 +3,7 @@ import Header from '../comps/Header'
 import { Link } from 'react-router-dom'
 import ListStyle from './styleList.module.css'
 import ListPhrase from '../comps/ListPhrase'
+import {phrases} from '../contentlist/phrase'
 const List = () => {
   return (
     <>
@@ -12,14 +13,9 @@ const List = () => {
       <p id={ListStyle.listAbout}>More than a <strike>simple list</strike><br></br>Oldest at the bottom<br></br>* Marks a message</p>
       </div>
       <div >
-        <ListPhrase phrase="Yes" message="" />
-        <ListPhrase phrase="No" message="" />
-        <ListPhrase phrase="Maybe" message="" />
-        <ListPhrase phrase="I" message="" />
-        <ListPhrase phrase="Don't" message="" />
-        <ListPhrase phrase="Know" message="" />
-        <ListPhrase phrase="Can" message="" />
-
+        {phrases.map(phrase=>{
+          return <ListPhrase phrase={phrase.name} message={phrase.caption}/>
+        })}
 
 
 

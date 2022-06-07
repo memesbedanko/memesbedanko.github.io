@@ -26,10 +26,8 @@ a{
   line-height: 2.5;
   letter-spacing: .5em;
   color: ghostwhite;
-  width: fit-content;
-  
+  width: fit-content;  
 }
-
 
  .links:after{
   display: inline-block;
@@ -53,5 +51,6 @@ a{
   width: auto;
   text-align: center;
   width: fit-content;
+
 }
 
